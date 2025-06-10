@@ -21,7 +21,7 @@ android {
         }
     }
 
-    // ✅ Align Java compilation to Java 17
+    // ✅ Set Java compatibility to 17
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
@@ -29,7 +29,7 @@ android {
 }
 
 kotlin {
-    
+    // ✅ Set Kotlin JVM toolchain to 17
     jvmToolchain {
         languageVersion.set(JavaLanguageVersion.of(17))
     }
