@@ -1,6 +1,6 @@
 plugins {
-    id("com.android.application")
-    id("org.jetbrains.kotlin.android") version "1.9.21" // Or compatible version
+    id("com.android.application") version "8.2.2"
+    id("org.jetbrains.kotlin.android") version "1.9.22"
 }
 
 android {
@@ -8,7 +8,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "org.example.androidbuild"
+        applicationId = "org.example.myapp"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
