@@ -8,7 +8,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "org.example.myapp"
+        applicationId = "com.kartik.deploy"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
