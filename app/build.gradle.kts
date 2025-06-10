@@ -29,7 +29,7 @@ android {
 }
 
 kotlin {
-    // ✅ Align Kotlin to use Java 17
+    
     jvmToolchain {
         languageVersion.set(JavaLanguageVersion.of(17))
     }
