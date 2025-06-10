@@ -20,6 +20,19 @@ android {
             isMinifyEnabled = false
         }
     }
+
+    // ✅ Align Java compilation to Java 17
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+}
+
+kotlin {
+    // ✅ Align Kotlin to use Java 17
+    jvmToolchain {
+        languageVersion.set(JavaLanguageVersion.of(17))
+    }
 }
 
 dependencies {
